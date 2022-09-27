@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AirBNB</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300,400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="build/css/app.css">
+</head>
+<body>
+    <header class="header">
+        <div class="bar container">
+            <div class="logo">
+                <img src="build/img/kisspng-airbnb-logo-coupon-privately-held-company-airbnb-logo-5b167f0c91db57.0436925715282009725974.png" alt="logo AirBNB">
+            </div>
+           
+                <nav class="bar__login">
+                    <a class="bar__link" href="#">Hazte anfitrión</a>
+                </nav>
+                
+                <nav class="bar__nav">
+                    <a class="bar__link" href="#">Ayuda</a>
+                    <a class="bar__link" href="#">Regístrate</a>
+                    <a class="bar__link" href="#">Inicia sesión</a>
+                </nav>
+        </div>
+
+        <form action="" class="form container">
+            <div class="form__field">
+                <label class="form__label" for="location">Destino</label>
+                    <input type="text" class="form__input" id="location" placeholder="Cualquier lugar">
+            </div>
+            <div class="form__field">
+                <label class="form__label" for="arrival">Llegada</label>
+                    <input type="date" class="form__input" id="arrival">
+            </div>
+            <div class="form__field">
+                <label class="form__label" for="departures">Salida</label>
+                    <input type="date" class="form__input" id="departures">
+            </div>
+            <div class="form__field">
+                <label class="form__label" for="adults">Adultos</label>
+                    <input type="number" class="form__input" id="adults" placeholder="2">
+            </div>
+            <div class="form__field">
+                <label class="form__label" for="children">Niños</label>
+                    <input type="number" class="form__input" id="children" placeholder="0">
+            </div>
+            <div class="form__field">
+                    <input type="submit" class="form__submit" value="Buscar">
+            </div>
+        </form>
+
+        <div class="header__search container">
+            <p class="header__search-label">A donde quieres ir?</p>
+            <a href="#" class="header__search-bottom">Búsqueda Flexible</a>
+        </div>
+    </header>
+
+    <section class="destiny container section">
+        <h2 class="destiny__heading">Descubre alojamientos en Airbnb</h2>
+        <ul class="destiny__grid">
+            <li class="destination">
+                <div class="destination__img">
+                    <img src="build/img/icono_destino_1.png" alt="img destiny">
+                </div>
+                <div class="destination__info">
+                    <h3 class="destination__name">New York</h3>
+                    <p class="destination__distance"> 9 horas en avion</p>
+                </div>
+            </li>
+            <li class="destination">
+                <div class="destination__img">
+                    <img src="build/img/icono_destino_2.png" alt="img destiny">
+                </div>
+                <div class="destination__info">
+                    <h3 class="destination__name">Paris</h3>
+                    <p class="destination__distance"> 2 horas en avion</p>
+                </div>
+            </li>
+            <li class="destination">
+                <div class="destination__img">
+                    <img src="build/img/icono_destino_3.png" alt="img destiny">
+                </div>
+                <div class="destination__info">
+                    <h3 class="destination__name">San Francisco</h3>
+                    <p class="destination__distance"> 12 horas en avion</p>
+                </div>
+            </li>
+            <li class="destination">
+                <div class="destination__img">
+                    <img src="build/img/icono_destino_4.png" alt="img destiny">
+                </div>
+                <div class="destination__info">
+                    <h3 class="destination__name">Egipto</h3>
+                    <p class="destination__distance"> 3 horas en avion</p>
+                </div>
+            </li>
+            <li class="destination">
+                <div class="destination__img">
+                    <img src="build/img/icono_destino_5.png" alt="img destiny">
+                </div>
+                <div class="destination__info">
+                    <h3 class="destination__name">Londres</h3>
+                    <p class="destination__distance"> 3 horas en avion</p>
+                </div>
+            </li>
+            <li class="destination">
+                <div class="destination__img">
+                    <img src="build/img/icono_destino_6.png" alt="img destiny">
+                </div>
+                <div class="destination__info">
+                    <h3 class="destination__name">Italia</h3>
+                    <p class="destination__distance"> 3 horas en avion</p>
+                </div>
+            </li>
+            <li class="destination">
+                <div class="destination__img">
+                    <img src="build/img/icono_destino_7.png" alt="img destiny">
+                </div>
+                <div class="destination__info">
+                    <h3 class="destination__name">India</h3>
+                    <p class="destination__distance"> 8 horas en avion</p>
+                </div>
+            </li>
+            <li class="destination">
+                <div class="destination__img">
+                    <img src="build/img/icono_destino_8.png" alt="img destiny">
+                </div>
+                <div class="destination__info">
+                    <h3 class="destination__name">Grecia</h3>
+                    <p class="destination__distance"> 4 horas en avion</p>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <section class="locations container section">
+        <h2 class="locations__heading">Vive en cualquier lugar del mundo</h2>
+        <div class="locations__grid">
+            
+            <div class="location">
+                <img class="location__img" src="build/img/vive_1.jpg" alt="img location">
+            <p class="location__name">Escapadas al aire libre</p>
+            </div>
+            <div class="location">
+                <img class="location__img" src="build/img/vive_2.jpg" alt="img location">
+            <p class="location__name">Alojamientos únicos</p>
+            </div>
+            <div class="location">
+                <img class="location__img" src="build/img/vive_3.jpg" alt="img location">
+            <p class="location__name">Alojamientos enteros</p>
+            </div>
+            <div class="location">
+                <img class="location__img" src="build/img/vive_4.jpg" alt="img location">
+            <p class="location__name">Con tu mascota</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="host container section">
+        <div class="host__content">
+            <h2 class="host__heading">Hazte anfitrión</h2>
+            <p class="host__text">Comparte tu espacio, gana dinero extra y aprovecha nuevas oportunidades.</p>
+            <a href="#" class="host__link">Más información</a>
+        </div>
+    </section>
+
+   <main class="exper container section">
+    <h2 class="exper__heading">Descubre nuevas experiencias</h2>
+    <p class="exper__text">Actividades únicas con expertos locales.</p>
+    <div class="exper__list">
+        <div class="experience">
+            <img class="experience__img" src="build/img/experiencia_1.jpg" alt="img experience">
+            <p class="experience__title">Nuevas Experiencias </p>
+            <p class="experience__descrip">Actividades locales estés donde estés</p>
+        </div>
+        <div class="experience">
+            <img class="experience__img" src="build/img/experiencia_2.jpg" alt="img experience">
+            <p class="experience__title">Experiencias Unicas</p>
+            <p class="experience__descrip">Visita una ciudad y vive en ella</p>
+        </div>
+        <div class="experience">
+            <img class="experience__img" src="build/img/experiencia_3.jpg" alt="img experience">
+            <p class="experience__title">Experiencias en linea</p>
+            <p class="experience__descrip">Actividades interactivas en online</p>
+        </div>
+    </div>
+   </main>
+
+   <footer class="footer">
+    <div class="footer_grid container">
+        <div class="footer__widget">
+            <a  href="#" class="footer__logo">Face</a>
+            <a  href="#" class="footer__logo">Twiter</a>
+            <a  href="#" class="footer__logo">Insta</a>
+        </div>
+        <div class="footer__reserved">
+            <p class="footer__text">2022 Airbnb,Inc. All rights reserved</p>
+            <p class="footer__text">Privacidad - Condiciones - Mapa sel sitio</p>
+        </div>
+    </div>
+
+   </footer>
+
+</body>
+</html>
